@@ -1,0 +1,19 @@
+{
+  "name": "rudderrave/ar-team-settings",
+  "description": "AR-team settings Module",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Rave",
+      "email": "rudder.rave@gmail.com"
+    }
+  ],
+  "require": {
+    "rudderrave/ar-team-core": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "arteam\\settings\\": ""
+    }
+  }
+}
